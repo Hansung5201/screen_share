@@ -1,0 +1,10 @@
+name: system_audio_loopback
+version: 0.0.1
+description: Stub plugin for Windows system audio loopback.
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+flutter:
+  plugin:
+    platforms:
+      windows:
+        pluginClass: SystemAudioLoopbackPlugin
